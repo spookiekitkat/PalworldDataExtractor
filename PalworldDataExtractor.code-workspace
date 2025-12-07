@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "dotnet.defaultSolution": "PalworldDataExtractor.sln",
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "files.exclude": {
+      "**/bin": true,
+      "**/obj": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-dotnettools.csharp",
+      "ms-vscode.test-adapter-converter",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+}

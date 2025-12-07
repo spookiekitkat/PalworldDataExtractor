@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "ms-dotnettools.csharp",
+        "ms-vscode.test-adapter-converter",
+        "ms-azuretools.vscode-docker"
+    ]
+}

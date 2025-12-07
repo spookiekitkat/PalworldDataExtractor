@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Cli",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "Build Solution",
+            "program": "${workspaceFolder}/Cli/bin/Debug/net8.0/Cli.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Cli",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}

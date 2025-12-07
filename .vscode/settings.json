@@ -1,0 +1,12 @@
+{
+    "dotnet.defaultSolution": "PalworldDataExtractor.sln",
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "omnisharp.useModernNet": true
+}
