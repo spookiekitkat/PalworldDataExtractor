@@ -15,9 +15,13 @@ public class DataExtractorTest
     static string PalPakPath => Path.Combine(PalDir, PalPakFolder);
 
     [TestMethod]
-    [Ignore] // must be ignored because it requires access to the .pak file which is not there when running in the CI 
     public async Task ShouldExtractData()
     {
+        if (!System.IO.Directory.Exists(PalPakPath))
+        {
+            Assert.Inconclusive($"Missing Pal .pak files at {PalPakPath}");
+        }
+
         DataExtractor extractor = new(
             PalPakPath,
             config =>
